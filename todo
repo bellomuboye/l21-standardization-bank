@@ -1,0 +1,24 @@
+Authentication 
+✅ Register - POST /auth/register //Can only have 'user' role
+✅ Login - POST /auth/login
+✅ Middleware - isAuthenticated
+✅ Middleware - isAdmin
+
+User
+✅ Add user - POST /users [ADMIN] //Can have 'admin' role
+✅ View user - GET /users/:user_id
+✅ View all users - GET /users [ADMIN]
+✅ Delete user - DEL /users/:user_id [ADMIN]
+⬜ Delete users - DEL /users [ADMIN]
+✅ Disable account - PUT /users/:user_id/disable [ADMIN]
+✅ Enable account - PUT /users/:user_id/enable [ADMIN]
+
+Transactions
+✅ Deposit - POST /transactions/deposit
+✅ Withdraw - POST /transactions/withdraw
+✅ Transfer - POST /transactions/transfer
+✅ View my transactions - GET /transactions/:user_id
+✅ View all transactions - GET /transactions [ADMIN]
+⬜ View users transactions - GET /transactions/:user_id [ADMIN]
+✅ View transaction details - GET /transactions/:transaction_id
+✅ Reverse Transaction - PUT /transactions/:transaction_id/reverse [ADMIN]

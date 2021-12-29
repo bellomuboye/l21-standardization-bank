@@ -1,0 +1,42 @@
+{
+  "name": "bell-omuboye-l21-standardization",
+  "version": "1.0.0",
+  "description": "Submission for Learnable 21 Standardization Test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testRunner": "jest-jasmine2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellomuboye/l21-standardization.git"
+  },
+  "author": "Bell Omuboye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bellomuboye/l21-standardization/issues"
+  },
+  "homepage": "https://github.com/bellomuboye/l21-standardization#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.4",
+    "jest-jasmine2": "^27.4.4",
+    "supertest": "^6.1.6"
+  }
+}
